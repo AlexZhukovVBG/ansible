@@ -1,6 +1,6 @@
 ---
 - name: Install Apache and upload my Web Page
-  hosts: all
+  hosts: staging_AWS
   become: yes
 
   vars:
